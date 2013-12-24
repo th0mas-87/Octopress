@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://th0mas-87.github.io//github
+url: http://th0mas-87.github.io//octopress
 title: My Octopress Blog
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Andrew Thomas
 simple_search: http://google.com/search
 description:
 
@@ -26,7 +26,7 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /github
+root: /octopress
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public/github
@@ -63,7 +63,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: th0mas-87
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
