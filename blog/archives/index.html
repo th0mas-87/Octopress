@@ -6,10 +6,10 @@
 <head>
   <meta charset="utf-8">
   <title>Blog Archive - My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <meta name="author" content="Andrew Thomas">
 
   
-  <meta name="description" content=" Blog Archive Recent Posts ">
+  <meta name="description" content="Blog Archive Recent Posts GitHub Repos Status updating... @th0mas-87 on GitHub $(document).ready(function(){ if (!window.jXHR){ var jxhr = document. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,14 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://th0mas-87.github.io//github/blog/archives">
-  <link href="/github/favicon.png" rel="icon">
-  <link href="/github/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link rel="canonical" href="http://th0mas-87.github.io//octopress/blog/archives">
+  <link href="/octopress/favicon.png" rel="icon">
+  <link href="/octopress/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/github/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
-  <script src="/github/javascripts/modernizr-2.0.js"></script>
+  <script src="/octopress/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/github/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/octopress/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -36,7 +36,7 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/github/">My Octopress Blog</a></h1>
+  <h1><a href="/octopress/">My Octopress Blog</a></h1>
   
     <h2>A blogging framework for hackers.</h2>
   
@@ -50,14 +50,14 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:th0mas-87.github.io//github" />
+    <input type="hidden" name="q" value="site:th0mas-87.github.io//octopress" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/github/">Blog</a></li>
-  <li><a href="/github/blog/archives">Archives</a></li>
+  <li><a href="/octopress/">Blog</a></li>
+  <li><a href="/octopress/blog/archives">Archives</a></li>
 </ul>
 
 </nav>
@@ -89,6 +89,35 @@
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/th0mas-87">@th0mas-87</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'th0mas-87',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/octopress/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
 
 
 
@@ -100,7 +129,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Your Name -
+  Copyright &copy; 2013 - Andrew Thomas -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

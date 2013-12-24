@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://th0mas-87.github.io//github/sitemap.xml 
+Sitemap: http://th0mas-87.github.io//octopress/sitemap.xml 
