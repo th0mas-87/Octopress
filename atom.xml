@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://th0mas-87.github.io//octopress/atom.xml" rel="self"/>
-  <link href="http://th0mas-87.github.io//octopress/"/>
-  <updated>2013-12-24T13:40:15-07:00</updated>
-  <id>http://th0mas-87.github.io//octopress/</id>
+  <link href="http://th0mas-87.github.io//Octopress/atom.xml" rel="self"/>
+  <link href="http://th0mas-87.github.io//Octopress/"/>
+  <updated>2013-12-24T13:41:29-07:00</updated>
+  <id>http://th0mas-87.github.io//Octopress/</id>
   <author>
     <name><![CDATA[Andrew Thomas]]></name>
     
